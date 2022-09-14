@@ -1,26 +1,17 @@
+#include <limits.h>
 #include "main.h"
 
 /**
-* print_last_digit - Prints the last digit
-* of number.
-*
-* @n: input number as an integer.
-*
-* Return: last digit.
-*/
-int print_last_digit(int n)
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int 1;
+	int r;
 
-	1 = n % 10;
-	if (1 < 0)
-		{
-		_putchar(-1 + 48);
-	return (-1);
-		}
-	else
-	{
-	_putchar(1 + 48);
-	returrn(1);
-	}
+	r = print_last_digit(98);
+	_putchar('0' + r);
+	_putchar('\n');
+	return (0);
 }
