@@ -3,6 +3,7 @@
  * cap_string - capitalizes all words of a string
  * @n: input value
  *
+ *
  * Return: string
  */
 char *cap_string(char *n)
@@ -14,7 +15,7 @@ char *cap_string(char *n)
 	{
 		n[0] = n[0] - 32;
 	}
-	for (i = 0; n[1] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
 		switch (n[i])
 		{
